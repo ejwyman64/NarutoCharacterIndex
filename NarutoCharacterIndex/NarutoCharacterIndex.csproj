@@ -43,15 +43,15 @@
 		<Reference Include="System.Xml" />
 	</ItemGroup>
 	<ItemGroup>
+		<PackageReference Include="Google.Cloud.Firestore" Version="1.0.0-beta19" />
+	</ItemGroup>
+	<ItemGroup>
 		<Compile Include="Character.cs" />
 		<Compile Include="Program.cs" />
 		<Compile Include="Properties\AssemblyInfo.cs" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="App.config" />
-	</ItemGroup>
-	<ItemGroup>
-		<PackageReference Include="Google.Cloud.Firestore" Version="1.0.0-beta19" />
 	</ItemGroup>
 	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
